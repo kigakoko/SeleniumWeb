@@ -45,7 +45,7 @@ class Program
 
         height.SendKeys("50");
         weight.SendKeys("3");
-        name.SendKeys("Nikita Dubrovin");
+        name.SendKeys("Mikita Dubrovin");
         gender.Click();
         IWebElement submitButton = driver.FindElement(By.XPath("//input[@type='submit']"));
         submitButton.Click();
